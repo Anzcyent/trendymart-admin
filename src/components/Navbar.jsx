@@ -31,6 +31,7 @@ const Navbar = () => {
       <div className="sm:hidden">
         <AiOutlineMenu className="cursor-pointer hover:opacity-70 active:scale-95" />
       </div>
+
     </nav>
   );
 };
