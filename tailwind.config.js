@@ -20,7 +20,8 @@ export default {
       black: "#000",
       white: "#fff",
       beige: "#e0d9da",
-      yellow: "#ffef01"
+      yellow: "#ffef01",
+      gray: "#a7a7a7"
     },
     screens: {
       ss: "340px",
