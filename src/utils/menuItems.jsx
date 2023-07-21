@@ -20,12 +20,12 @@ const menuItems = [
       {
         id: 1,
         name: "Homepage",
-        icon: <AiOutlineHome className="mr-2" />,
+        icon: <AiOutlineHome className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 2,
         name: "Profile",
-        icon: <FiUsers className="mr-2" />,
+        icon: <FiUsers className="sm:mr-2 lg:text-sm text-2xl" />,
       },
     ],
   },
@@ -36,17 +36,17 @@ const menuItems = [
       {
         id: 1,
         name: "Users",
-        icon: <FiUsers className="mr-2" />,
+        icon: <FiUsers className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 2,
         name: "Products",
-        icon: <AiOutlineShoppingCart className="mr-2" />,
+        icon: <AiOutlineShoppingCart className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 3,
         name: "Orders",
-        icon: <MdNotes className="mr-2" />,
+        icon: <MdNotes className="sm:mr-2 lg:text-sm text-2xl" />,
       },
     ],
   },
@@ -57,22 +57,22 @@ const menuItems = [
       {
         id: 1,
         name: "Elements",
-        icon: <AiOutlineAppstore className="mr-2" />,
+        icon: <AiOutlineAppstore className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 2,
         name: "Notes",
-        icon: <LuEdit className="mr-2" />,
+        icon: <LuEdit className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 3,
         name: "Forms",
-        icon: <FaWpforms className="mr-2" />,
+        icon: <FaWpforms className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 4,
         name: "Calendar",
-        icon: <AiOutlineCalendar className="mr-2" />,
+        icon: <AiOutlineCalendar className="sm:mr-2 lg:text-sm text-2xl" />,
       },
     ],
   },
@@ -83,12 +83,12 @@ const menuItems = [
       {
         id: 1,
         name: "Settings",
-        icon: <FiSettings className="mr-2" />,
+        icon: <FiSettings className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 2,
         name: "Backups",
-        icon: <MdBackupTable className="mr-2" />,
+        icon: <MdBackupTable className="sm:mr-2 lg:text-sm text-2xl" />,
       },
     ],
   },
@@ -99,12 +99,12 @@ const menuItems = [
       {
         id: 1,
         name: "Charts",
-        icon: <BiBarChartSquare className="mr-2" />,
+        icon: <BiBarChartSquare className="sm:mr-2 lg:text-sm text-2xl" />,
       },
       {
         id: 2,
         name: "Logs",
-        icon: <GoNote className="mr-2" />,
+        icon: <GoNote className="sm:mr-2 lg:text-sm text-2xl" />,
       },
     ],
   },
