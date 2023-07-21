@@ -1,5 +1,6 @@
 import React from "react";
-import { TopBox } from "../components";
+import { TopBox, ChartBox } from "../components";
+import { chartBoxUser, chartBoxProduct, chartBoxRevenue, chartBoxConversion } from "../utils/chartBox";
 
 const HomeContainer = () => {
   return (
@@ -7,13 +8,21 @@ const HomeContainer = () => {
       <div className="p-2 border rounded-sm grid-column col-span-1 row-span-3">
         <TopBox />
       </div>
-      <div className="p-2 border rounded-sm">Box2</div>
-      <div className="p-2 border rounded-sm">Box3</div>
+      <div className="p-2 border rounded-sm">
+        <ChartBox {...chartBoxUser} />
+      </div>
+      <div className="p-2 border rounded-sm">
+        <ChartBox {...chartBoxProduct} />
+      </div>
       <div className="p-2 border rounded-sm grid-column col-span-1 row-span-3">
         Box4
       </div>
-      <div className="p-2 border rounded-sm">Box5</div>
-      <div className="p-2 border rounded-sm">Box6</div>
+      <div className="p-2 border rounded-sm">
+        <ChartBox {...chartBoxRevenue} />
+      </div>
+      <div className="p-2 border rounded-sm">
+        <ChartBox {...chartBoxConversion} />
+      </div>
       <div className="p-2 border rounded-sm grid-column col-span-2 row-span-2">
         Box7
       </div>
