@@ -4,7 +4,7 @@ import menuItems from "../utils/menuItems";
 
 const Menu = () => {
   return (
-    <div className="flex flex-col lg:items-start items-center grow bg-darkBlue lg:w-[10%] md:w-[15%] w-[20%] p-3">
+    <div className="flex flex-col lg:items-start items-center bg-darkBlue lg:w-[10%] md:w-[15%] w-[20%] p-3 font-urbanist">
       {menuItems.map((menuItem) => (
         <ul key={menuItem.id} className="flex flex-col justify-center mb-3">
           <li className="text-gray text-xs self-start font-bold">
