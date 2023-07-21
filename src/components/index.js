@@ -4,3 +4,4 @@ export { default as Menu } from "./Menu";
 export { default as TopBox } from "./TopBox";
 export { default as ChartBox } from "./ChartBox";
 export { default as BarChartBox } from "./BarChartBox";
+export { default as PieChartBox } from "./PieChartBox";
