@@ -1,6 +1,14 @@
 import React from "react";
-import { TopBox, ChartBox } from "../components";
-import { chartBoxUser, chartBoxProduct, chartBoxRevenue, chartBoxConversion } from "../utils/chartBox";
+import { TopBox, ChartBox, BarChartBox } from "../components";
+
+import {
+  chartBoxUser,
+  chartBoxProduct,
+  chartBoxRevenue,
+  chartBoxConversion,
+} from "../utils/chartBox";
+
+import { barChartBoxRevenue, barChartBoxVisit } from "../utils/barChartBox";
 
 const HomeContainer = () => {
   return (
@@ -26,8 +34,12 @@ const HomeContainer = () => {
       <div className="p-2 border rounded-sm grid-column col-span-2 row-span-2">
         Box7
       </div>
-      <div className="p-2 border rounded-sm">Box8</div>
-      <div className="p-2 border rounded-sm">Box9</div>
+      <div className="p-2 border rounded-sm">
+        <BarChartBox {...barChartBoxVisit} />
+      </div>
+      <div className="p-2 border rounded-sm">
+        <BarChartBox {...barChartBoxRevenue} />
+      </div>
     </div>
   );
 };

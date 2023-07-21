@@ -3,3 +3,4 @@ export { default as Footer } from "./Footer";
 export { default as Menu } from "./Menu";
 export { default as TopBox } from "./TopBox";
 export { default as ChartBox } from "./ChartBox";
+export { default as BarChartBox } from "./BarChartBox";
