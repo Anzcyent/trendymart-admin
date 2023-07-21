@@ -1,5 +1,5 @@
 import React from "react";
-import { TopBox, ChartBox, BarChartBox, PieChartBox } from "../components";
+import { TopBox, ChartBox, BarChartBox, PieChartBox, BigChartBox } from "../components";
 
 import {
   chartBoxUser,
@@ -32,7 +32,7 @@ const HomeContainer = () => {
         <ChartBox {...chartBoxConversion} />
       </div>
       <div className="p-2 border rounded-sm grid-column col-span-2 row-span-2">
-        Box7
+        <BigChartBox />
       </div>
       <div className="p-2 border rounded-sm">
         <BarChartBox {...barChartBoxVisit} />

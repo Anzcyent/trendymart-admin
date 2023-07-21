@@ -11,7 +11,7 @@ const data = [
 const PieChartBox = () => {
   return (
     <div className="p-2 font-urbanist w-full h-full flex flex-col items-center">
-      <h1 className="font-bold text-2xl self-start">Leads By Source</h1>
+      <h1 className="font-bold text-2xl self-start mb-5">Leads By Source</h1>
 
       <div className="w-full h-full">
         <ResponsiveContainer width="99%" height={300}>
