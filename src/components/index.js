@@ -6,3 +6,4 @@ export { default as ChartBox } from "./ChartBox";
 export { default as BarChartBox } from "./BarChartBox";
 export { default as PieChartBox } from "./PieChartBox";
 export { default as BigChartBox } from "./BigChartBox";
+export { default as DataTable } from "./DataTable";
