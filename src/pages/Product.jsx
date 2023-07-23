@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer, Menu, Navbar, Single } from "../components";
+import { singleProduct } from "../utils/single";
 
 const Product = () => {
   return (
@@ -7,7 +8,7 @@ const Product = () => {
       <Navbar />
       <div className="flex grow">
         <Menu />
-        <Single />
+        <Single {...singleProduct} />
       </div>
       <Footer />
     </div>
