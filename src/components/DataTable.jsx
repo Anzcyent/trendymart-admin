@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { GrView } from "react-icons/gr";
 import { AiFillDelete } from "react-icons/ai";
 
-const DataTable = ({ columns, users, slug }) => {
+const DataTable = ({ columns, rows, slug }) => {
 const handleDelete = id => {
     console.log(id + " has been deleted!");
 }
@@ -29,10 +29,10 @@ const handleDelete = id => {
   };
 
   return (
-    <div>
+    <div className="w-[90vw] h-[80vh]">
       <DataGrid
         className="dataGrid bg-white p-3"
-        rows={users}
+        rows={rows}
         columns={[...columns, actionColumn]}
         initialState={{
           pagination: {

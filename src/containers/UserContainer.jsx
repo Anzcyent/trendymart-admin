@@ -82,7 +82,7 @@ const UserContainer = () => {
         </button>
       </div>
 
-      <DataTable slug="users" columns={columns} users={users} />
+      <DataTable slug="users" columns={columns} rows={users} />
       {open && <Add setOpen={setOpen} slug="user" columns={columns} />}
     </div>
   );
