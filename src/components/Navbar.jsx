@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="w-full bg-darkBlue text-white p-3 flex justify-between items-center font-urbanist">
       <div className="flex items-center">
         <img src="/assets/admin.png" alt="logo" className="w-10" />
-        <span className="font-bold sm:text-base text-sm">TrendyMart / Admin</span>
+        <span className="font-bold sm:text-base text-sm">Admin</span>
       </div>
 
 

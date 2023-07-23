@@ -8,3 +8,4 @@ export { default as PieChartBox } from "./PieChartBox";
 export { default as BigChartBox } from "./BigChartBox";
 export { default as DataTable } from "./DataTable";
 export { default as Add } from "./Add";
+export { default as Single } from "./Single";
