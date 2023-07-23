@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
 
 
-      <div className="flex items-center max-[550px]:hidden">
+      <div className="flex items-center">
         <AiOutlineSearch className="font-bold mx-1 cursor-pointer hover:opacity-70 active:scale-95" />
         <AiOutlineAppstore className="font-bold mx-1 cursor-pointer hover:opacity-70 active:scale-95" />
         <RxEnterFullScreen className="font-bold mx-1 cursor-pointer hover:opacity-70 active:scale-95" />
@@ -25,11 +25,6 @@ const Navbar = () => {
         />
         <small className="font-bold text-xs mx-1 cursor-pointer hover:opacity-70 active:scale-95">Cihan</small>
         <FiSettings className="font-bold mx-1 cursor-pointer hover:opacity-70 active:scale-95" />
-      </div>
-
-      {/* RESPONSIVE */}
-      <div className="sm:hidden">
-        <AiOutlineMenu className="cursor-pointer hover:opacity-70 active:scale-95" />
       </div>
 
     </nav>

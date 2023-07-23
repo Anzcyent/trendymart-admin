@@ -35,9 +35,9 @@ const PieChartBox = () => {
       </div>
       <div className="flex justify-evenly w-full">
         {data.map((item) => (
-          <div className="flex mx-4" key={item.name}>
+          <div className="flex mx-1" key={item.name}>
             <span
-              className="w-2 h-2 rounded-full mr-3"
+              className="w-1 h-1 rounded-full sm:mr-3 mr-1"
               style={{ backgroundColor: item.color }}
             />
             <div className="flex flex-col text-xs leading-5">

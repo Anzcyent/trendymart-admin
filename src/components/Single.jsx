@@ -17,8 +17,8 @@ const Single = ({ id, img, title, info, chart, activities }) => {
     );
   }, []);
   return (
-    <div className="p-3 bg-darkBlue text-white w-full flex font-urbanist">
-      <div className="w-1/2 flex flex-col">
+    <div className="p-3 flex md:flex-row flex-col bg-darkBlue text-white w-full flex font-urbanist">
+      <div className="md:w-1/2 w-full flex flex-col">
         <div className="h-1/2">
           <div className="flex items-center gap-5 mb-5">
             {img && (
@@ -44,9 +44,9 @@ const Single = ({ id, img, title, info, chart, activities }) => {
           </div>
         </div>
 
-        <hr className="w-4/5 h-0" />
+        <hr className="w-4/5 h-0 md:block hidden" />
 
-        <div className="h-1/2 mt-5 w-4/5 h-[400px]">
+        <div className="md:block hidden h-1/2 mt-5 w-4/5 h-[400px]">
           {chart && (
             <ResponsiveContainer width="99%" height="100%">
               <LineChart
@@ -80,9 +80,9 @@ const Single = ({ id, img, title, info, chart, activities }) => {
         </div>
       </div>
 
-      <div className="w-1/2">
-        <h2 className="mb-5 text-red text-2xl">Latest Activities</h2>
-        <ul className="w-2/3">
+      <div className="md:w-1/2 w-full md:mt-0 mt-5">
+        <h2 className="mb-5 text-red md:text-2xl text-lg">Latest Activities</h2>
+        <ul className="md:w-2/3 w-full md:text-base text-sm">
           {activities &&
             activities.map((activity, i) => (
               <li
@@ -91,7 +91,7 @@ const Single = ({ id, img, title, info, chart, activities }) => {
               >
                 <div>
                   <p>{activity.text}</p>
-                  <span className="font-bold">{activity.time}</span>
+                  <span className="font-bold text-gray">{activity.time}</span>
                 </div>
               </li>
             ))}

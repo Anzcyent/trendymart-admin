@@ -29,7 +29,7 @@ const handleDelete = id => {
   };
 
   return (
-    <div className="w-[90vw] h-[80vh]">
+    <div className="md:w-[80vw] w-[70vw] h-[80vh]">
       <DataGrid
         className="dataGrid bg-white p-3"
         rows={rows}
